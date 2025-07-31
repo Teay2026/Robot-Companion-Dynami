@@ -51,20 +51,10 @@ DynAmi was built as an **interactive companion robot** combining robotics, AI, a
 ✅ **Interactive Mobile App** – Control the robot, chat with AI, get real-time alerts  
 ✅ **Audio Output** – High-quality sound via LM4871 amplifier  
 
----
-
-## 🌟 Overall Functionalities
 
 <p align="center">
   <img src="./images/overall_functionalities.png" alt="Overall Functionalities" width="700"/>
 </p>
-
-DynAmi integrates **vision, speech, and autonomous navigation** into a unified platform.  
-The system is built around **three main components**:
-
-1. **Mobile App (React-Native)** – Provides user interface, controls, and chat.  
-2. **Server (Node.js)** – Acts as a bridge between the app, AI services, and the robot.  
-3. **Robot (Raspberry Pi + STM32)** – Executes movements, speech, and AI-based recognition.
 
 ---
 
