@@ -65,14 +65,16 @@ The system is built around **three main components**:
 | 🔌 **Communication** | UART · Socket.io · LocalTunnel |
 
 ### 🔩 Hardware
-| Component              | Icon |
-|------------------------|------|
-| 🖥️ Raspberry Pi 3B     | <img src="https://raw.githubusercontent.com/github/explore/main/topics/raspberry-pi/raspberry-pi.png" width="30"/> |
-| 🔬 STM32 Nucleo        | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/STMicroelectronics-Logo.svg/320px-STMicroelectronics-Logo.svg.png" width="50"/> |
-| 🔊 LM4871 Speaker      | 🎵 |
-| 🎥 USB Webcam          | 📷 |
-| ⚙️ DC Motors           | ⚙️ |
-| 📡 IR & Ultrasonic Sensors | 📡 |
+
+| Component           | Description                              |
+|---------------------|------------------------------------------|
+| Raspberry Pi 3B     | Main processing unit for high-level tasks |
+| STM32 Nucleo        | Microcontroller for low-level control    |
+| LM4871 Speaker      | Amplified audio output                   |
+| USB Webcam          | Camera for face and object recognition   |
+| DC Motors           | Robot movement and locomotion           |
+| IR & Ultrasonic Sensors | Obstacle detection and distance measurement |
+| Servomotors         | Camera orientation and light pointing    |
 
 ---
 
