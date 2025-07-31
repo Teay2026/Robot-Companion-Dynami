@@ -92,6 +92,5 @@ The system is built around **three main components**:
 
 ## 📱 Mobile App
 <p align="center">
-  <img src="./images/app_home.png" width="300"/>
-  <img src="./images/chat_interface.png" width="300"/>
+  <img src="./images/app.png" width="300"/>
 </p>
