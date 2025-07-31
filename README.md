@@ -18,12 +18,20 @@
 ---
 
 ## 🎯 Project Goals
-DynAmi was developed to explore the intersection of **robotics, AI, and human-computer interaction**.  
-The main goals were:
 
-1. Build a robot capable of **autonomous navigation** in a dynamic environment.  
-2. Implement **vision-based user recognition and emotion detection**.  
-3. Provide a **mobile interface** for control and AI-powered interactions.  
+DynAmi is a **smart companion robot** built to combine **robotics, AI, and human-computer interaction** into one integrated platform.  
+It was designed to **see, understand, and interact naturally with its environment and with people**.
+
+### 🔑 Our Core Objectives
+✨ **Autonomous Navigation**  
+Develop a mobile robot that can move safely in dynamic environments using **real-time obstacle detection and avoidance**.
+
+✨ **AI-Powered Perception & Interaction**  
+Enable **face recognition, emotion detection, and conversational abilities** through computer vision and natural language processing.
+
+✨ **Seamless User Experience**  
+Provide a **React-Native mobile app** for easy robot control, live status monitoring, and **GPT-powered chat interaction**.
+
 
 ---
 
