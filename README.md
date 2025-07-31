@@ -47,12 +47,24 @@ Built with **computer vision, voice recognition, and autonomous navigation**, Dy
 
 ## 🛠 Tech Stack
 
-| Layer         | Technologies Used                                   |
-|--------------|-----------------------------------------------------|
-| **Robot HW** | Raspberry Pi 3B · STM32 Nucleo · IR/Ultrasonic Sensors |
-| **Software** | Python · Node.js · React-Native · HTML/CSS          |
-| **AI/ML**    | OpenCV · DeepFace · face_recognition · YOLOv4 · GPT-4 |
-| **Communication** | UART · Socket.io · LocalTunnel (public server)   |
+### 🔗 **Software**
+| Category           | Technologies |
+|--------------------|--------------|
+| 🌐 **Frontend**    | React-Native · HTML · CSS |
+| ⚙️ **Backend**     | Node.js · Express.js |
+| 🐍 **Python**      | OpenCV · DeepFace · face_recognition · SpeechRecognition · gTTS |
+| 🤖 **AI Models**   | YOLOv4 · GPT-4 API |
+| 🔌 **Communication** | UART · Socket.io · LocalTunnel |
+
+### 🔩 **Hardware**
+| Component          | Icon |
+|--------------------|------|
+| 🖥️ Raspberry Pi 3B | ![Raspberry Pi](https://raw.githubusercontent.com/github/explore/main/topics/raspberry-pi/raspberry-pi.png) |
+| 🔬 STM32 Nucleo    | ![STM32](https://www.st.com/content/dam/logos/st-logo.png) |
+| 🔊 LM4871 Speaker  | 🎵 |
+| 🎥 USB Webcam      | 📷 |
+| ⚙️ DC Motors       | ⚙️ |
+| 📡 IR & Ultrasonic Sensors | 📡 |
 
 ---
 
@@ -61,3 +73,4 @@ Built with **computer vision, voice recognition, and autonomous navigation**, Dy
   <img src="./images/app_home.png" alt="App Home" width="300"/>  
   <img src="./images/chat_interface.png" alt="Chat Interface" width="300"/>
 </p>
+
