@@ -18,12 +18,13 @@
 ---
 
 ## 🎥 Demo
+## 🎥 Demo
 <p align="center">
-  <a href="./assets/demo.mp4">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
     <img src="./images/demo_thumbnail.png" alt="Watch the Demo" width="600"/>
   </a>
 </p>
-<p align="center"><i>▶️ Click the thumbnail to watch DynAmi in action!</i></p>
+<p align="center"><i>▶️ Click the thumbnail to watch DynAmi in action on YouTube!</i></p>
 
 ---
 
