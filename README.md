@@ -5,7 +5,7 @@
 ---
 
 ## Demo Video
-[![Watch the Demo](./images/demo_thumbnail.png)](./assets/Dynami_compresses.mp4)  
+[![Watch the Demo](./images/demo_thumbnail.png)](./assets/Dynami_compressed.mp4)  
 *(Click the image to watch the full demo)*
 
 ---
