@@ -95,3 +95,4 @@ The system is built around **three main components**:
   <img src="./images/app1.png" alt="App Screen 1" width="250" style="margin-right: 10px;"/>
   <img src="./images/app2.png" alt="App Screen 2" width="250"/>
 </p>
+
