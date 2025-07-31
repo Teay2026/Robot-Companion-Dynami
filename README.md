@@ -47,23 +47,23 @@ Built with **computer vision, voice recognition, and autonomous navigation**, Dy
 
 ## 🛠 Tech Stack
 
-### 🔗 **Software**
+### 🔗 Software
 | Category           | Technologies |
 |--------------------|--------------|
-| 🌐 **Frontend**    | React-Native · HTML · CSS |
-| ⚙️ **Backend**     | Node.js · Express.js |
-| 🐍 **Python**      | OpenCV · DeepFace · face_recognition · SpeechRecognition · gTTS |
+| 🌐 **Frontend**    | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20"/> React-Native · HTML · CSS |
+| ⚙️ **Backend**     | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="20"/> Node.js · Express.js |
+| 🐍 **Python**      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> OpenCV · DeepFace · face_recognition · SpeechRecognition · gTTS |
 | 🤖 **AI Models**   | YOLOv4 · GPT-4 API |
 | 🔌 **Communication** | UART · Socket.io · LocalTunnel |
 
-### 🔩 **Hardware**
-| Component          | Icon |
-|--------------------|------|
-| 🖥️ Raspberry Pi 3B | ![Raspberry Pi](https://raw.githubusercontent.com/github/explore/main/topics/raspberry-pi/raspberry-pi.png) |
-| 🔬 STM32 Nucleo    | ![STM32](https://www.st.com/content/dam/logos/st-logo.png) |
-| 🔊 LM4871 Speaker  | 🎵 |
-| 🎥 USB Webcam      | 📷 |
-| ⚙️ DC Motors       | ⚙️ |
+### 🔩 Hardware
+| Component              | Icon |
+|------------------------|------|
+| 🖥️ Raspberry Pi 3B     | <img src="https://raw.githubusercontent.com/github/explore/main/topics/raspberry-pi/raspberry-pi.png" width="30"/> |
+| 🔬 STM32 Nucleo        | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/STMicroelectronics-Logo.svg/320px-STMicroelectronics-Logo.svg.png" width="50"/> |
+| 🔊 LM4871 Speaker      | 🎵 |
+| 🎥 USB Webcam          | 📷 |
+| ⚙️ DC Motors           | ⚙️ |
 | 📡 IR & Ultrasonic Sensors | 📡 |
 
 ---
@@ -73,4 +73,3 @@ Built with **computer vision, voice recognition, and autonomous navigation**, Dy
   <img src="./images/app_home.png" alt="App Home" width="300"/>  
   <img src="./images/chat_interface.png" alt="Chat Interface" width="300"/>
 </p>
-
