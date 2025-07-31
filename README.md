@@ -6,7 +6,7 @@
 
 <p align="center">
   <b> AI-Powered • Interactive </b><br/>
-  DynAmi is a smart companion robot that can see, hear, talk, and interact naturally with humans and environement dem.
+  DynAmi is a smart companion robot that can see, hear, talk, and interact naturally with humans and environement .
 </p>
 
 <p align="center">
