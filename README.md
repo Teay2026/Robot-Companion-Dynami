@@ -18,12 +18,12 @@
 ---
 
 ## 🎥 Demo
-<p align="center"><i>▶️ Click the thumbnail to watch DynAmi in action!</i></p>
+<p align="center">
   <a href="./assets/demo.mp4">
     <img src="./images/demo_thumbnail.png" alt="Watch the Demo" width="600"/>
   </a>
 </p>
-<p align="center">
+<p align="center"><i>▶️ Click the thumbnail to watch DynAmi in action!</i></p>
 
 ---
 
