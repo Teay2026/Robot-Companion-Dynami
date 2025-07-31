@@ -1,78 +1,63 @@
-# 🤖 DynAmi – The Companion Robot
+# 🚀 DynAmi – Your Interactive Companion Robot 🤖
 
-![DynAmi Logo](./images/logo.png) <!-- Replace with your logo -->
+<p align="center">
+  <img src="./images/logo.png" alt="DynAmi Logo" width="200"/>
+</p>
 
----
-
-## 🎥 Demo Video
-[![Watch the Demo](./images/demo_thumbnail.png)](./assets/demo.mp4)  
-*(Click the image to watch the full demo)*
-
----
-
-## 📜 Table of Contents
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [System Architecture](#system-architecture)
-- [Hardware Components](#hardware-components)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Future Improvements](#future-improvements)
-- [Team](#team)
-- [License](#license)
+DynAmi is an **AI-powered companion robot** that can **see, hear, speak, and interact naturally** with users.  
+Built with **computer vision, voice recognition, and autonomous navigation**, DynAmi brings human-robot interaction to life through a **mobile app and a smart AI backend**.
 
 ---
 
-## 📖 About the Project
-DynAmi is an **interactive companion robot** designed to communicate naturally with users, recognize faces and emotions, navigate autonomously, and provide an immersive experience through an AI-powered mobile application.
+## 🎥 Live Demo
+<p align="center">
+  <a href="./assets/demo.mp4">
+    <img src="./images/demo_thumbnail.png" alt="Watch the Demo" width="600"/>
+  </a>
+</p>
 
-This project integrates **robotics, embedded systems, computer vision, speech recognition, and generative AI**, creating a unique platform for human-robot interaction.
-
----
-
-## 🚀 Features
-- ✅ **Autonomous Navigation** – Obstacle detection & avoidance using IR sensors  
-- ✅ **Bidirectional Communication** – App ↔ Server ↔ Raspberry Pi ↔ STM32 ↔ Robot  
-- ✅ **Voice Recognition & Speech Synthesis** – Using Python (SpeechRecognition & gTTS)  
-- ✅ **Facial Recognition & Emotion Detection** – OpenCV, face_recognition & DeepFace  
-- ✅ **Individual Detection & Tracking** – YOLOv4-based object detection  
-- ✅ **Interactive Mobile App** – Control the robot, chat with AI, receive alerts  
-- ✅ **Audio Output (Speaker)** – Amplified audio responses using LM4871  
+*(Click the thumbnail to watch the full video!)*
 
 ---
 
-## 🛠️ Tech Stack
-
-### **Software**
-- **Languages**: Python, Node.js, React-Native, HTML/CSS
-- **Libraries**: OpenCV, DeepFace, face_recognition, SpeechRecognition, gTTS, socket.io  
-- **AI/ML Models**: YOLOv4 for object detection, GPT-4 for chatbot responses  
-- **Server Hosting**: LocalTunnel for external connectivity  
-
-### **Hardware**
-- Raspberry Pi 3B  
-- STM32 Nucleo board  
-- 2 DC motors with encoders  
-- IR and ultrasonic sensors  
-- 2 servomotors (horizontal & vertical)  
-- USB Webcam  
-- Microphone & speaker (amplified with LM4871)  
+## ✨ Key Features
+✅ **Autonomous Navigation** – IR sensors & ultrasonic modules for obstacle detection and safe movement  
+✅ **Bidirectional Communication** – Mobile app ↔ Node.js server ↔ Raspberry Pi ↔ STM32 robot  
+✅ **AI-Powered Chat** – Real-time voice commands & responses with GPT-powered chatbot  
+✅ **Facial Recognition & Emotion Detection** – Using OpenCV, DeepFace & face_recognition  
+✅ **Individual Detection & Tracking** – YOLOv4-based tracking system  
+✅ **Interactive Mobile App** – Control the robot, chat with AI, get real-time alerts  
+✅ **Audio Output** – High-quality sound via LM4871 amplifier  
 
 ---
 
-## 📡 System Architecture
-![System Architecture](./images/system_architecture.png) <!-- Add your figure -->
+## 🖼️ System Overview
+
+### 📡 Architecture
+<p align="center">
+  <img src="./images/system_architecture.png" alt="System Architecture" width="600"/>
+</p>
+
+### 🔌 Hardware Wiring
+<p align="center">
+  <img src="./images/wiring.png" alt="Hardware Wiring" width="600"/>
+</p>
 
 ---
 
-## 🔩 Hardware Setup
-![Wiring Diagram](./images/wiring.png) <!-- Add your wiring diagram -->
+## 🛠 Tech Stack
 
-### Components Used:
-- DC motors + encoders  
-- IR & ultrasonic sensors for obstacle detection  
-- Servomotors for light pointer movement  
-- LM4871 amplifier for speaker  
-- Webcam for vision & face recognition  
+| Layer         | Technologies Used                                   |
+|--------------|-----------------------------------------------------|
+| **Robot HW** | Raspberry Pi 3B · STM32 Nucleo · IR/Ultrasonic Sensors |
+| **Software** | Python · Node.js · React-Native · HTML/CSS          |
+| **AI/ML**    | OpenCV · DeepFace · face_recognition · YOLOv4 · GPT-4 |
+| **Communication** | UART · Socket.io · LocalTunnel (public server)   |
+
+---
+
+## 📱 Mobile App UI
+<p align="center">
+  <img src="./images/app_home.png" alt="App Home" width="300"/>  
+  <img src="./images/chat_interface.png" alt="Chat Interface" width="300"/>
+</p>
