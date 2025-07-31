@@ -18,7 +18,6 @@
 ---
 
 ## 🎥 Demo
-## 🎥 Demo
 <p align="center">
   <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
     <img src="./images/demo_thumbnail.png" alt="Watch the Demo" width="600"/>
