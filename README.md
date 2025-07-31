@@ -27,22 +27,29 @@
 
 ---
 
-## ✨ Features at a Glance
+## ✨ Key Features
+✅ **Autonomous Navigation** – IR sensors & ultrasonic modules for obstacle detection and safe movement  
+✅ **Bidirectional Communication** – Mobile app ↔ Node.js server ↔ Raspberry Pi ↔ STM32 robot  
+✅ **AI-Powered Chat** – Real-time voice commands & responses with GPT-powered chatbot  
+✅ **Facial Recognition & Emotion Detection** – Using OpenCV, DeepFace & face_recognition  
+✅ **Individual Detection & Tracking** – YOLOv4-based tracking system  
+✅ **Interactive Mobile App** – Control the robot, chat with AI, get real-time alerts  
+✅ **Audio Output** – High-quality sound via LM4871 amplifier  
 
-<table>
-<tr>
-<td>🧠 <b>AI Chat</b><br/>Talk to DynAmi via a GPT-powered chatbot with voice input/output.</td>
-<td>🎭 <b>Facial Recognition</b><br/>Detects users, recognizes faces, and analyzes emotions with DeepFace.</td>
-</tr>
-<tr>
-<td>🚗 <b>Autonomous Navigation</b><br/>IR & ultrasonic sensors for real-time obstacle avoidance.</td>
-<td>📱 <b>Mobile App</b><br/>Control the robot, monitor its status, and chat via a React-Native app.</td>
-</tr>
-<tr>
-<td>🎥 <b>Object Tracking</b><br/>YOLOv4-based detection to follow individuals in real-time.</td>
-<td>🔊 <b>Audio Output</b><br/>LM4871-amplified speaker for realistic voice responses.</td>
-</tr>
-</table>
+---
+
+## 🌟 Overall Functionalities
+
+<p align="center">
+  <img src="./images/overall_functionalities.png" alt="Overall Functionalities" width="700"/>
+</p>
+
+DynAmi integrates **vision, speech, and autonomous navigation** into a unified platform.  
+The system is built around **three main components**:
+
+1. **Mobile App (React-Native)** – Provides user interface, controls, and chat.  
+2. **Server (Node.js)** – Acts as a bridge between the app, AI services, and the robot.  
+3. **Robot (Raspberry Pi + STM32)** – Executes movements, speech, and AI-based recognition.
 
 ---
 
