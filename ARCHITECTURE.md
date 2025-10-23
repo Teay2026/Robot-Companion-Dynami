@@ -28,11 +28,24 @@ graph TB
         STM[⚡ STM32<br/>C Firmware]
     end
 
+    subgraph "💾 Databases"
+        JSON[(📄 conversations.json<br/>Chat History)]
+        CHROMA[(🔍 ChromaDB<br/>Vector Embeddings)]
+        FACES[(👤 faces.json<br/>Known Faces)]
+        PREFS[(⚙️ preferences.json<br/>User Settings)]
+    end
+
     APP -->|HTTP/WebSocket| HTTP
     HTTP --> SEC
     HTTP --> MEM
     HTTP --> VIS
     HTTP --> LLM
+
+    MEM --> JSON
+    MEM --> CHROMA
+    VIS --> FACES
+    SEC --> PREFS
+
     HTTP -->|UART/Serial| RPI
     RPI -->|I2C/SPI| STM
 ```
@@ -116,3 +129,4 @@ graph TB
     JSON -.->|Sync| CHROMA
     CHROMA -.->|Search| SIMILARITY
 ```
+
