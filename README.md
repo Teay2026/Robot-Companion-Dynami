@@ -22,7 +22,7 @@
 DynAmi was built as an **interactive companion robot** combining robotics, AI, and a mobile interface to create a personalized and immersive user experience.
 
 ### 🔑 Core Objectives
-✨ **Interactive Communication** – Build a system that lets users control the robot and receive real-time responses via **voice chat, transcription, and GPT-powered AI**.  
+✨ **Interactive Communication** – Build a system that lets users control the robot and receive real-time responses via **voice chat, transcription, and AI-powered chatbot**.  
 
 ✨ **Intelligent Perception** – Integrate **facial recognition, emotion detection, and individual tracking**, enabling the robot to recognize users and adapt its interactions.  
 
@@ -45,7 +45,7 @@ DynAmi was built as an **interactive companion robot** combining robotics, AI, a
 ## ✨ Key Features
 ✅ **Autonomous Navigation** – IR sensors & ultrasonic modules for obstacle detection and safe movement  
 ✅ **Bidirectional Communication** – Mobile app ↔ Node.js server ↔ Raspberry Pi ↔ STM32 robot  
-✅ **AI-Powered Chat** – Real-time voice commands & responses with GPT-powered chatbot  
+✅ **AI-Powered Chat** – Real-time voice commands & responses with intelligent chatbot  
 ✅ **Facial Recognition & Emotion Detection** – Using OpenCV, DeepFace & face_recognition  
 ✅ **Individual Detection & Tracking** – YOLOv4-based tracking system  
 ✅ **Interactive Mobile App** – Control the robot, chat with AI, get real-time alerts  
@@ -66,7 +66,7 @@ DynAmi was built as an **interactive companion robot** combining robotics, AI, a
 | 🌐 **Frontend**    | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20"/> React-Native · HTML · CSS |
 | ⚙️ **Backend**     | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="20"/> Node.js · Express.js |
 | 🐍 **Python**      | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20"/> OpenCV · DeepFace · face_recognition · SpeechRecognition · gTTS |
-| 🤖 **AI Models**   | YOLOv4 · GPT-4 API |
+| 🤖 **AI Models**   | YOLOv4 · Free LLM APIs |
 | 🔌 **Communication** | UART · Socket.io · LocalTunnel |
 
 ### 🔩 Hardware
