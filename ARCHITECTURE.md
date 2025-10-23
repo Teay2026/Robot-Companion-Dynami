@@ -41,33 +41,78 @@ graph TB
 
 ## 2. 🔍 Architecture RAG
 
+### Pipeline de traitement d'une requête
+
+```mermaid
+flowchart LR
+    INPUT[📝 User Query<br/>"Hello, how are you?"]
+
+    subgraph "🔍 Retrieval Phase"
+        EMBED[🧠 Text Embedding<br/>Vector Conversion]
+        SEARCH[🔍 Semantic Search<br/>ChromaDB Query]
+        RESULTS[📊 Top 3 Results<br/>Relevant Conversations]
+    end
+
+    subgraph "📋 Context Assembly"
+        CONTEXT[📝 Context Building]
+        PREFS[⚙️ User Preferences]
+        VISION[👁️ Vision Context]
+        EMOTION[😊 Emotion Analysis]
+    end
+
+    subgraph "🤖 Generation Phase"
+        PROMPT[📄 Enhanced Prompt<br/>System + Context + Query]
+        LLM[🤖 LLM Call<br/>Hugging Face API]
+        RESPONSE[✅ Generated Response]
+    end
+
+    subgraph "💾 Storage Phase"
+        STORE_JSON[📄 JSON Storage<br/>conversations.json]
+        STORE_VECTOR[🔍 Vector Storage<br/>ChromaDB]
+        UPDATE[🔄 Update Embeddings]
+    end
+
+    INPUT --> EMBED
+    EMBED --> SEARCH
+    SEARCH --> RESULTS
+
+    RESULTS --> CONTEXT
+    PREFS --> CONTEXT
+    VISION --> CONTEXT
+    EMOTION --> CONTEXT
+
+    CONTEXT --> PROMPT
+    PROMPT --> LLM
+    LLM --> RESPONSE
+
+    RESPONSE --> STORE_JSON
+    RESPONSE --> STORE_VECTOR
+    STORE_VECTOR --> UPDATE
+```
+
 ### Système de stockage dual
 
 ```mermaid
 graph TB
-    subgraph "🔍 RAG Memory System"
+    subgraph "💾 Dual Storage System"
         subgraph "📄 JSON Storage"
             JSON[(conversations.json)]
-            HIST[📚 Conversation History]
-            META[🏷️ User Metadata]
+            IMMEDIATE[⚡ Immediate Save]
+            BACKUP[🔄 Backup & History]
         end
 
         subgraph "🔍 Vector Database"
             CHROMA[(ChromaDB)]
-            EMBED[🧠 Semantic Embeddings]
-            SEARCH[🔍 Similarity Search]
+            SEMANTIC[🧠 Semantic Search]
+            SIMILARITY[📊 Similarity Matching]
         end
     end
 
-    subgraph "🔄 Pipeline"
-        QUERY[📝 User Query]
-        CONTEXT[📋 Context Assembly]
-        RESPONSE[✅ LLM Response]
-    end
+    CONV[💬 New Conversation] --> IMMEDIATE
+    IMMEDIATE --> JSON
+    IMMEDIATE --> SEMANTIC
+    SEMANTIC --> CHROMA
 
-    QUERY --> SEARCH
-    SEARCH --> CONTEXT
-    CONTEXT --> RESPONSE
-    RESPONSE --> JSON
-    RESPONSE --> CHROMA
+    JSON -.->|Sync| CHROMA
+    CHROMA -.->|Search| SIMILARITY
 ```
