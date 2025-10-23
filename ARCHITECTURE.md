@@ -45,28 +45,28 @@ graph TB
 
 ```mermaid
 flowchart LR
-    INPUT[📝 User Query<br/>"Hello, how are you?"]
+    INPUT[📝 User Query<br/>Hello how are you]
 
-    subgraph "🔍 Retrieval Phase"
+    subgraph RETRIEVAL [🔍 Retrieval Phase]
         EMBED[🧠 Text Embedding<br/>Vector Conversion]
         SEARCH[🔍 Semantic Search<br/>ChromaDB Query]
         RESULTS[📊 Top 3 Results<br/>Relevant Conversations]
     end
 
-    subgraph "📋 Context Assembly"
+    subgraph ASSEMBLY [📋 Context Assembly]
         CONTEXT[📝 Context Building]
         PREFS[⚙️ User Preferences]
         VISION[👁️ Vision Context]
         EMOTION[😊 Emotion Analysis]
     end
 
-    subgraph "🤖 Generation Phase"
+    subgraph GENERATION [🤖 Generation Phase]
         PROMPT[📄 Enhanced Prompt<br/>System + Context + Query]
         LLM[🤖 LLM Call<br/>Hugging Face API]
         RESPONSE[✅ Generated Response]
     end
 
-    subgraph "💾 Storage Phase"
+    subgraph STORAGE [💾 Storage Phase]
         STORE_JSON[📄 JSON Storage<br/>conversations.json]
         STORE_VECTOR[🔍 Vector Storage<br/>ChromaDB]
         UPDATE[🔄 Update Embeddings]
